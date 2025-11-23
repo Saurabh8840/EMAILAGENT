@@ -12,7 +12,9 @@ const config = {
     eslint: {
         ignoreDuringBuilds: true,
     },
-    
+    experimental: {
+    optimizeCss: false, 
+  }
 };
 
 export default config;
