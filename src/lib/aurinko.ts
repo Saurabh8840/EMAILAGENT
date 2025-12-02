@@ -16,3 +16,6 @@ export const getAurinkoAuthUrl = async (serviceType: "Google" | "office365") => 
 
   return `https://api.aurinko.io/v1/auth/authorize?${params.toString()}`;
 };
+
+
+
